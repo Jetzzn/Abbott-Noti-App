@@ -24,9 +24,9 @@ function App() {
        setTokenStatus("received");
 
        // หน่วงเวลา 1 วินาทีก่อน redirect
-      //  setTimeout(() => {
-      //    window.location.href = "https://abbott.in2it-service.com/";
-      //  }, 2000);
+       setTimeout(() => {
+         window.location.href = "https://abbott.in2it-service.com/";
+       }, 1000);
      } else {
        console.log("No token received");
        setTokenStatus("failed");
